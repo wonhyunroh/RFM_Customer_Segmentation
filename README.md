@@ -104,19 +104,6 @@
 3. **F(빈도) 지표 제외**
    F는 M과 상관계수 0.80으로 높아 세분화 기준에서 제외했으나, 이는 정보 손실을 감수한 선택이다.
 
-## 폴더 구조
-
-```
-Project1_RFM_Analysis/
-├── README.md              # 프로젝트 개요 (현재 문서)
-├── data/                  # 원본 데이터
-│   └── sales_data_v2.csv
-├── sql/                   # 분석 쿼리
-│   ├── Project1_EDA.sql   # EDA 쿼리
-│   └── Project1_RFM.sql   # RFM 점수화·세그먼트 쿼리
-├── results/               # 쿼리 실행 결과 (R·F·M·RFM 점수)
-└── image/                 # 분석 차트 (파레토, RM 산점도)
-```
 
 
 ## 상세 버전
